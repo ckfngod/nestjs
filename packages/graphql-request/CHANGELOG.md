@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.3.0 (2024-10-29)
+
+### Bug Fixes
+
+- **common:** expose full gql request api ([4f649ea](https://github.com/golevelup/nestjs/commit/4f649eaf5553bbf3b12f60138d39401b1e3fcd44)), closes [#122](https://github.com/golevelup/nestjs/issues/122)
+- fix pnpm depending on registry instead of workspace ([fbe9626](https://github.com/golevelup/nestjs/commit/fbe96266932f9af4274b37121f4f9eb3ccf3a548)), closes [#817](https://github.com/golevelup/nestjs/issues/817)
+- **graphql-request:** Exporting GraphQLRequestModuleConfig interface to be able to use it when creating config classes. ([#539](https://github.com/golevelup/nestjs/issues/539)) ([5d2b640](https://github.com/golevelup/nestjs/commit/5d2b640ae4d5253029073dc9c232696b53826a1a))
+
+- deps(graphql-request)!: update graphql and graphql-request packages (#664) ([a1b1977](https://github.com/golevelup/nestjs/commit/a1b1977245e1433c83558117d37eada567cabc9b)), closes [#664](https://github.com/golevelup/nestjs/issues/664)
+
+### Features
+
+- **graphql-request:** module ([c38ca5d](https://github.com/golevelup/nestjs/commit/c38ca5d2218cb9df23baf9f422012ea56d074714))
+
+### BREAKING CHANGES
+
+- Changes to underlying dependencies that this library depends on
+
 ## [0.2.2](https://github.com/golevelup/nestjs/compare/@golevelup/nestjs-graphql-request@0.2.1...@golevelup/nestjs-graphql-request@0.2.2) (2024-04-10)
 
 **Note:** Version bump only for package @golevelup/nestjs-graphql-request
